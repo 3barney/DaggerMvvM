@@ -11,6 +11,7 @@ import dagger.android.ActivityKey;
 import dagger.android.AndroidInjector;
 import dagger.multibindings.IntoMap;
 
+// We use this Module to create scopes for each activity
 @Module(subcomponents = {
         MainActivityComponent.class,
 })
